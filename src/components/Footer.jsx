@@ -6,7 +6,7 @@ const Footer = () => {
           © {new Date().getFullYear()} All rights reserved. Built with React & Tailwind CSS
         </p>
         <p className="text-gray-500 text-sm mt-2">
-          Made with ❤️ by a Fullstack Developer
+          Made with ❤️ by Intended For Good Digital Services
         </p>
       </div>
     </footer>

@@ -43,7 +43,7 @@ const Header = () => {
             className="text-2xl font-bold text-gradient cursor-pointer hover:scale-105 transition-transform" 
             onClick={() => scrollToSection('hero')}
           >
-            Portfolio
+            Solaja, Oyeniyi Michael
           </div>
           
           {/* Desktop Navigation */}

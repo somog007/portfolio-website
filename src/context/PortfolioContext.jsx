@@ -7,7 +7,7 @@ const projects = [
   {
     id: 1,
     name: "Character Matters",
-    description: "An interactive web application dedicated to character development and personal growth. This platform helps users explore and cultivate essential character traits through engaging content and self-assessment tools.",
+    description: "An interactive web application dedicated to character development and personal growth for children. This platform helps users explore and cultivate essential character traits through engaging content and self-assessment tools.",
     techStack: ["React", "JavaScript", "CSS", "Netlify"],
     category: "Frontend",
     image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop",
@@ -17,7 +17,7 @@ const projects = [
   {
     id: 2,
     name: "Transaction Trac",
-    description: "A comprehensive financial transaction tracking application designed to help users manage their finances effectively. Features include detailed transaction history, visual spending analytics, and budget tracking.",
+    description: "A comprehensive financial transaction tracking application designed to help users/businesses manage their finances effectively. Features include detailed transaction history, visual spending analytics, and budget tracking.",
     techStack: ["React", "JavaScript", "CSS", "LocalStorage", "Netlify"],
     category: "Frontend",
     image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=600&fit=crop",
@@ -27,7 +27,7 @@ const projects = [
   {
     id: 3,
     name: "GMJGPM",
-    description: "A professional web presence for GMJGPM organization, showcasing their services, mission, and values. Features an elegant design with comprehensive information pages and contact functionality.",
+    description: "A professional web presence for GMJGPM, a religious organization, showcasing their services, mission, and values. Features an elegant design with comprehensive information pages and contact functionality.",
     techStack: ["React", "JavaScript", "CSS", "Responsive Design", "Netlify"],
     category: "Frontend",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
@@ -38,7 +38,7 @@ const projects = [
     id: 4,
     name: "E-Commerce Platform",
     description: "A full-featured e-commerce web application with product catalog management, shopping cart functionality, secure authentication, and payment gateway integration.",
-    techStack: ["React", "Node.js", "Express", "MongoDB", "Stripe", "JWT"],
+    techStack: ["React", "Node.js", "Express", "MongoDB", "Stripe", "JWT", "Tailwind CSS","Paystack"],
     category: "Fullstack",
     image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
     liveDemo: "",
@@ -60,21 +60,22 @@ const projects = [
 
 const skills = {
   frontend: ["React", "JavaScript", "TypeScript", "HTML/CSS", "Tailwind CSS", "Redux", "Next.js", "Vue.js"],
-  backend: ["Node.js", "Express", "Python", "Django", "REST APIs", "GraphQL", "Socket.io"],
-  databases: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Firebase"],
-  tools: ["Git", "Docker", "AWS", "CI/CD", "Jest", "Webpack", "VS Code"],
+  backend: ["Node.js", "Express", "Python", "Django", "REST APIs", "Socket.io"],
+  databases: ["MongoDB", "PostgreSQL", "MySQL"],
+  tools: ["Git", "VS Code"],
 };
 
 const profile = {
   name: "Solaja, Oyeniyi Michael",
   title: "Freelance Fullstack Web Developer",
+  image: "/profile-placeholder.jpg",
   introduction: "Building scalable, high-performance web applications for international clients and remote-first startups. Transforming ideas into secure, conversion-focused digital products.",
   about: "I am a Freelance Website Developer specializing in building scalable, high-performance web applications for international clients and remote-first startups. I help businesses transform ideas into secure, conversion-focused digital products that are optimized for performance, usability, and long-term growth.\n\nMy expertise spans full-stack web development, responsive front-end engineering, backend architecture, API integration, payment gateway implementation, authentication systems, and database design. I build mobile-first, SEO-optimized, and accessibility-compliant websites using modern development frameworks and clean, maintainable code.\n\nFrom MVP development to scaling production-ready platforms, I focus on performance optimization, cross-browser compatibility, technical SEO, and secure deployment workflows. I collaborate seamlessly with distributed teams using Git-based version control, Agile methodology, and CI/CD pipelines to ensure efficient delivery and high code quality.\n\nI work remotely with clients across different time zones, maintaining clear communication, structured documentation, and reliable turnaround times. My goal is simple: deliver robust, scalable web solutions that enhance user experience, improve conversion rates, and drive measurable business results.",
-  email: "your.email@example.com",
-  github: "https://github.com/yourusername",
-  linkedin: "https://linkedin.com/in/yourusername",
-  twitter: "https://twitter.com/yourusername",
-  portfolio: "https://yourportfolio.com",
+  email: "intendedforgood@hotmail.com",
+  github: "https://github.com/somog007",
+  linkedin: "https://linkedin.com/in/oyeniyi-solaja",
+  twitter: "https://twitter.com/smoog007",
+  portfolio: "https://myportfolio.com",
 };
 
 export const PortfolioProvider = ({ children }) => {

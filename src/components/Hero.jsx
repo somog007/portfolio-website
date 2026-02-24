@@ -45,6 +45,28 @@ const Hero = () => {
 
       <div className="container mx-auto text-center animate-fade-in relative z-10">
         <div className="mb-8">
+          {/* Profile Image */}
+          <div className="mb-6">
+            <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full overflow-hidden border-4 border-primary-500 shadow-xl bg-gray-200 dark:bg-gray-700">
+              {profile.image ? (
+                <img
+                  src={profile.image}
+                  alt={profile.name}
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    e.target.style.display = 'none';
+                    e.target.nextSibling.style.display = 'flex';
+                  }}
+                />
+              ) : null}
+              <div className="w-full h-full flex items-center justify-center text-4xl md:text-5xl text-gray-400 dark:text-gray-500" style={{ display: profile.image ? 'none' : 'flex' }}>
+                <svg className="w-16 h-16 md:w-20 md:h-20" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
+                </svg>
+              </div>
+            </div>
+          </div>
+
           <div className="inline-block mb-4 px-4 py-2 bg-primary-100 dark:bg-primary-900/30 rounded-full">
             <span className="text-primary-600 dark:text-primary-400 font-medium">Welcome to my portfolio</span>
           </div>
